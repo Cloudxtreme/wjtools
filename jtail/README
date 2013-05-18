@@ -1,0 +1,19 @@
+==== Examples of usage
+
+webnull@tealc ~/Praca/java/wjtools $ jtail
+Please specify an input file
+
+webnull@tealc ~/Praca/java/wjtools $ jtail -h
+usage: jtail [-h] [-s STRING] [file [file ...]]
+
+positional arguments:
+  file
+
+optional arguments:
+  -h, --help             show this help message and exit
+  -s STRING, --string STRING
+                         Only if given string found
+
+webnull@tealc ~/Praca/java/wjtools $ jtail /mnt/panthera/public_html/content/tmp/debug.log --string="addr(192.168.1.102)"
+-- if "addr(192.168.1.102)" found in content of debug.log it will be displayed here --
+
